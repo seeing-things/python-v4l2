@@ -3,7 +3,7 @@ from distutils.core import setup
 
 setup(
     name='v4l2',
-    version='0.2',
+    version='0.2.1',
     license='GPLv2',
     requires=('ctypes',),
     py_modules=('v4l2',),
