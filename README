@@ -1,4 +1,21 @@
-This is a fork. The original project lives here: https://launchpad.net/python-v4l2
+This is a fork. The original project lives here:
+https://launchpad.net/python-v4l2
+
+This fork makes no major changes to the original project; it simply integrates
+the following bug fixes that the (possibly dead?) upstream developers have
+neglected to integrate into their upstream repository:
+
+- Python 3 incompatibility:
+  https://bugs.launchpad.net/python-v4l2/+bug/1664158
+- Mistake in struct v4l2_frmsize_stepwise definition:
+  https://bugs.launchpad.net/python-v4l2/+bug/1760718
+
+Note that the version number in this fork has been bumped from the original 0.2
+to 0.2.1, and then subsequently to 0.2.2, to reflect the bug fix changes that
+have been applied.
+
+The original README follows below.
+
 
 python-v4l2
 ===========
